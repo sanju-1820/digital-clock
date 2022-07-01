@@ -1,0 +1,28 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+}
+body{
+  display: grid;
+  place-items: center;
+  background:yellowgreen;
+}
+.clock{
+  background: #131419;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  padding: 0 18px;
+  border-radius: 10px;
+}
+.clock .display{
+  font-size: 60px;
+  color: cyan;
+  letter-spacing: 3px;
+  font-family: 'Orbitron', sans-serif;
+}
